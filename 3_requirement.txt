@@ -1,0 +1,28 @@
+=== Run ===
+python3 convert.py
+python3 main.py
+
+=== source code ===
+main.py
+convert.py
+soil.py
+
+=== Python tools ===
+can be installed with pip3 in linux:
+    pyproj
+    pyshp
+    matplotlib
+    scipy
+    scikit-learn (install python3-dev first on debian)
+
+=== Data ===
+The raw data is in the box:
+https://uofi.box.com/s/pnhaeiaqr6u9tijsmcaus5uswerm5tt0
+
+Unzip the .7z files (consists of xyzi files) and wss_aoi_2015-03-18_09-28-52.zip file (consists of spatial folder), put the xyzi files and spatial folder in the following order assuming the the source code is in the current dir.
+
+(xyzi files)
+./data/*.xyzi
+
+(shapefiles)
+./data/spatial/
